@@ -1,0 +1,553 @@
+html{
+    background:linear-gradient(#fefefe,#d9d9d9);
+}
+
+header{
+    background-image:url("img/Banner2.png");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    box-shadow: 2px 2px 16px #000;
+}
+
+
+#logo{
+    width: 20%;
+    border-radius: 120px;
+}
+
+#slogan{
+    position: absolute;
+    color: #ffffff;
+    font-weight: bold;
+    top: 75px;
+    right:18%;
+    font-size: 55px;
+    font-family: 'Pristina', sans-serif;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 85%;
+    right: 20%;
+}
+
+nav li{
+    display: inline;
+    text-shadow: 4px 4px 4px #000000;
+    padding-bottom: 40px;
+    border-radius: 50px;
+}
+
+nav li:not(:first-child){
+    margin: 0 0 0 25px;
+}
+
+nav a{
+    font-family: 'Pristina', sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ffe500;
+    font-size: 45px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.imgProducto{
+    width: 80%;
+    height: 200px;
+}
+
+#promo1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgpromo{
+    margin: 15px;
+    width: 50%;
+    height: 480px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 16px #000;
+}
+
+.imgpromo:hover{
+    transform: scale(1.02);
+    transition: 200ms;
+}
+
+#video-container{
+    position: relative;
+    width: 50%;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 2px 2px 16px #000;
+}
+
+#video-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+video{
+    width: 45%;
+    animation: loopVideo 5s;
+}
+
+#video-container:hover{
+    transform: scale(1.02);
+    transition: 200ms;
+}
+
+@keyframes loopVideo {
+    to{
+        transform: scale(1.01);
+    }
+    
+}
+
+.Encab{
+    color: #fff;
+    font-size: 65px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Pristina', sans-serif;
+    text-shadow: 4px 4px 4px #000000;
+    background-color: #ff6a00;
+    padding: 20px;
+    background: url(img/bg_encabez.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90px;
+    border-top: 20px solid #ffe500;
+}
+
+#Platillos{
+    margin-top: 0px;
+}
+
+.Encab:hover{
+    font-size: 75px;
+    animation-delay: 3s ;
+   animation-duration: 3s;
+   transition: 200ms;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+@font-face {
+    font-family: 'Pristina';
+    src: url('fonts/pristina.ttf') format('truetype'); /* Ruta al archivo de fuente TrueType */
+    /* Agrega aquí fuentes alternativas y otros formatos de fuente si es necesario */
+}
+
+.productos li{
+    font-family:  'Pristina', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px 4px #ff6a00;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background-image: url("img/bg_food.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 16px #000;
+}
+
+.productos li:hover{
+   box-shadow:4px 4px 10px 2px #ffe500;
+   font-size: 50px;
+   color: #ff6a009f;
+   transition: 200ms;
+   cursor: pointer;
+}
+
+.productos li:active{
+    box-shadow:4px 4px 10px 8px #00ff37; 
+}
+
+.productos h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px #000000;
+    color: #ffffff;
+}
+
+.producto-descripcion{
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #000000;
+    color: #ffffff;
+}
+
+.productos li:hover h2{
+    font-size: 45px;
+    color: #ffe500;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.productos li:hover p{
+    color: #ffe500;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+.producto-precio{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 4px 4px 4px #000000;
+    color: #ffffff;
+}
+
+#contenedorAcerca{
+    margin-top: 20px;
+    
+}
+
+#contenedorAcerca h3{
+    margin-top: 30px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Pristina', sans-serif;
+}
+
+#contenedorAcerca P{
+    margin-top: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#contenedorAcerca ul{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#contenedorAcerca li:hover{
+    font-size: 27px;
+    text-shadow: 4px 4px 4px #ffe500;
+    font-weight: bold;
+    scale:1.2;
+    transition: 200ms;
+}
+
+#contenedorAcerca li{
+    margin-top: 10px;
+}
+
+#contenedorAcerca strong{
+    font-weight: bold;
+}
+
+#contenedorAcerca h3:hover{
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #ffe500;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+#contenedorAcerca p:hover{
+    font-size: 27px;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+footer{
+    text-align: center;
+    border-top: 20px solid #ffe500;
+    padding: 20px;
+    background:#ff6a00;
+    margin-top: 20px;
+}
+
+footer h3:hover{
+    font-size: 75px;
+   transition: 200ms;
+}
+
+#contenidoform{
+    width: 940px;
+    margin: 0  auto;
+}
+
+form{
+    text-align: left;
+    margin: 40px 0;
+}
+
+form label, form legend{
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    margin:  0 0 10px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffe500;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 15px;
+    border:none;
+    border-right: 10px solid #c7d131;
+    border-left: 10px solid #c7d131;
+    border-bottom: 10px solid #c7d131;
+}
+
+.enviar:hover{
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffe500;
+    text-shadow: none;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.input_padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px;
+}
+
+#tbhorariosycobertura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    margin: 40px 40px;
+    width: 25%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 16px #000;
+}
+
+.map{
+    margin: 40px 40px;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 16px #000;
+    overflow: hidden;
+}
+
+#tbhorariosycobertura iframe:hover{
+    transform: scale(1.09);
+    transition: 200ms;
+}
+
+table:hover{
+    transform: scale(1.09);
+    transition: 200ms;
+}
+
+thead td, thead th{
+    background: #ffe500;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 2PX 2PX 5PX #000;
+}
+
+td,th{
+    background-color: #ff6a00;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#contacto{
+    display: flex;
+}
+
+#Contacto h3{
+    font-size: 65px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Pristina', sans-serif;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+#Contacto h3:hover{
+    scale:1.2;
+    transition: 200ms;
+}
+
+.redsocial{
+    display: flex;
+    justify-content: center;
+    width: auto 0;
+}
+.redsocial:hover{
+    scale:1.05;
+    transition: 200ms;
+}
+
+.redsocial img{
+    width: 30px;
+}
+
+.icono{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.icono p{
+    margin-left: 5px;
+    color: #fefefe;
+}
+
+.Copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media screen and (max-width:480px){
+    header{
+        text-align: center;
+        background-size: cover;
+        margin: 0  auto;
+    }
+
+   .caja,.productos,#contenidoform,#redsocial,#promo1{
+    width: auto;
+    margin: 0 auto;
+   }
+
+   .caja h1{
+    text-align: center;
+   }
+
+   #logo{
+    width: 150px;
+   }
+
+   #slogan{
+    font-size: 2.3em;
+    position: relative;
+    top: 0px;
+    right: 0px;
+   }
+
+   nav{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: 0 AUTO;
+   }
+   nav a{
+    font-size: 2.2em;
+    
+   }
+
+   nav ul{
+    margin-top: 20px;
+   }
+
+   #promo1{
+    display: inline-block;
+    margin: 0 auto;
+   }
+   #promo1 img, #video-container{
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    height: auto;
+   }
+
+   .Encab{
+    font-size: 3em;
+    background-size: cover;
+    margin-bottom: 30px;
+   }
+
+   #tbhorariosycobertura{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+   }
+
+   #tbhorariosycobertura iframe{
+    display: inline-block;
+    width: 85%;
+    height: 300px;
+    margin: 30px 0px 30px;
+   }
+   
+   table{
+    margin-top: 30px;
+    width: auto;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   .productos li{
+    width: auto;
+    margin-bottom: 20px;
+   }
+
+   #Platillos{
+    margin-bottom: 0px;
+   }
+
+   main{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+   }
+}

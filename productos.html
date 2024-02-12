@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width">
+        <title>Inicio - DeliFray</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="productos.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="img/Logo_DeliFray.png" id="logo" alt="logo"></h1>
+                <p id="slogan">Sabor Crujiente, Entrega Exprés</p>
+                <nav>
+                    <ul>
+                        <li><a href="#Platillos">Platillos</a></li>
+                        <li><a href="#AcercaD">A cerca de</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="promo1">
+                <img src="img/promo1.png" class="imgpromo">
+                <div id="video-container">
+                    <video src="img/papas.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+            
+            <h2 class="Encab">Horarios Y Cobertura</h2>
+            <div id="tbhorariosycobertura">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Días</th>
+                            <td>Horarios</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>08hrs ~ 20hrs</td>
+                        </tr>
+                        <tr>
+                            <td>Miercoles</td>
+                            <td>08hrs ~ 20hrs</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>08hrs ~ 20hrs</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59935.96957134287!2d-101.22004243816066!3d20.134126950433235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cfac6125d8345%3A0xb5b485d7b3358697!2sUriangato%2C%20Gto.!5e0!3m2!1ses!2smx!4v1707686676880!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+            <h2 class="Encab" id="Platillos">Platillos</h2>
+            <ul class="productos">
+                <li>
+                    <h2>Burritos</h2>
+                    <img src="img/p3.png" class="imgProducto" alt="Burrito">
+                    <p class="producto-descripcion">Buritos Milanesa, Chorizo y bistec</p>
+                    <p class="producto-precio">Precio: $55.00</p>                    
+                </li>
+                <li>
+                    <h2>Chilaquiles</h2>
+                    <img src="img/p1.png" class="imgProducto" alt="Chilaquiles">
+                    <p class="producto-descripcion">Chilaquiles con crema, queso y cebolla</p>
+                    <p class="producto-precio">Precio: $55.00</p>                    
+                </li>
+                <li>
+                    <h2>Boneless</h2>
+                    <img src="img/p4.png" class="imgProducto" alt="Boneless">
+                    <p class="producto-descripcion">Boneless bbq con complementos</p>
+                    <p class="producto-precio">Precio: $55.00</p>
+                </li>
+            </ul>
+            <div id="contenedorAcerca">
+                <h2 class="Encab" id="AcercaD">A cerca de</h2>
+                <h3>¿Qué es Delifray?</h3>
+                <p><strong>Delifray</strong> es un negocio de comida delivery en donde ofrecemos deliciosos platillos fritos y los llevamos directamente a las puertas de tus clientes.</p>
+                <h3>Nuestra Misión</h3>
+                <p>“Nuestra misión en DeliFray es llevar la satisfacción crujiente directamente a los hogares de nuestros clientes"</p>
+                <h3>General</h3>
+                <p>DeliFray es un negocio especializado en comida frita que ofrece una variedad de platillos deliciosos y crujientes. Desde papas fritas doradas hasta alitas de pollo crujientes, nuestro menú está diseñado para satisfacer los antojos de quienes buscan una experiencia culinaria indulgente. Lo mejor de todo es que entregamos directamente a tu puerta. Así que, si deseas disfrutar de una comida frita en familia o con amigos sin salir de casa, ¡DeliFray es la elección perfecta! 🍟🔥🏠</p>
+                <h3>Diferenciales</h3>
+                <ul id="diferenciales">
+                    <li class="items">&check; Variedad y originalidad en el menú</li>
+                    <li class="items">&check; Calidad y frescura de los ingredientes</li>
+                    <li class="items">&check; Experiencia de cliente personalizada</li>
+                    <li class="items">&check; Precios competitivos y promociones atractivas</li>
+                    <li class="items">&check; Compromiso con la comunidad local</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer id="Contacto">
+            <h3>Contactanos</h3>
+            <div id="contenidoform">
+                <form>
+                    <label for="nombreyapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreyapellido" class="input_padron" required>
+                    <label for="correo">Correo Electronico</label>
+                    <input type="email" id="correo" class="input_padron" required placeholder="e-mail@example.com">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input_padron" required placeholder="(XXX)-XXX-XX-XX">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="68" rows="10" id="mensaje" class="input_padron"></textarea required>
+                    <fieldset>
+                        <legend>¿Cómo le gustaria que lo contactemos?</legend>
+                        <label for="radioemail"><input type="radio" name="contacto" value="E-mail" id="radioemail">E-mail</label>
+                        <label for="radiotelefono"><input type="radio" name="contacto" value="telefono" id="radiotelefono">Teléfono</label>
+                        <label for="radiowatsapp"><input type="radio" name="contacto" value="whatsapp" id="radiowatsapp" checked>Whatsapp</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿En que horario le gustaía ser atendido?</legend>
+                        <select>
+                            <option value="">Mañana</option>
+                            <option value="">Tarde</option>
+                            <option value="">Noche</option>
+                        </select>
+                    </fieldset>
+                    <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recinir novedades de DeliFray?</label>
+                    <input type="submit" value="Envíar Formulario" class="enviar">
+                </form>
+            </div>
+            <div class="redsocial">
+                <div class="icono">
+                    <img src="img/facebook.png">
+                    <p>/@DeliFray</p>
+                </div>
+                <div class="icono">
+                    <img src="img/whatsapp.png">
+                    <p>4451395395</p>
+                </div>
+                <div class="icono">
+                    <img src="img/tik-tok.png">
+                    <p>@DeliFray</p>
+                </div>
+            </div>
+            <p class="Copyright">&copy Copyright DeliFray 2023</p>
+        </footer>
+    </body>
+</html>
